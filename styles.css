@@ -1,0 +1,30 @@
+#header {
+	background-image: url("images/header1blackwhite.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+h1 {
+	padding-top: 25px;
+	font: 250px;
+	color: #29D5F0;
+	text-shadow: 2px 2px #000000;
+}
+
+h2 {
+	text-align: center;
+}
+
+#headshot {
+	position: relative;
+	width: 150px;
+	height: 150px;
+	overflow: hidden;
+	border-radius: 50%;
+}
+
+img {
+	width: 100%;
+	height: auto;
+	clip: rect(20px, 50px, 200px; 100px);
+}
