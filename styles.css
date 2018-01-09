@@ -1,14 +1,18 @@
-#header {
+.col-md-12 {
 	background-image: url("images/header1blackwhite.png");
 	background-repeat: no-repeat;
 	background-position: center;
+	display: inline;
 }
 
 h1 {
-	padding-top: 25px;
-	font: 250px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bolder;
+	padding-top, padding-bottom: 25px;
+	font: 450px;
 	color: #29D5F0;
 	text-shadow: 2px 2px #000000;
+	text-align: center;
 }
 
 h2 {
@@ -28,3 +32,26 @@ img {
 	height: auto;
 	clip: rect(20px, 50px, 200px; 100px);
 }
+
+.tabs {
+	padding-top, padding-bottom: 50px;
+}
+
+ul {
+	display: flex;
+	align-items: stretch;
+	justify-content: space-between;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	display: block;
+	flex: 0 1 auto;
+	list-style-type: none;
+}
+
+
+
+
