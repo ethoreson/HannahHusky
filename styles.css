@@ -1,5 +1,15 @@
+body {
+	background-color: #e8e3d3;
+}
+
+.portfolio {
+	background-color: #d9d9d9;
+	box-shadow: 5px 5px rgba(126, 126, 126, 0.5);
+}
+
 .col-md-12 {
 	background-image: url("images/header1blackwhite.png");
+	height: 120px;
 	background-repeat: no-repeat;
 	background-position: center;
 	display: inline;
@@ -8,10 +18,9 @@
 h1 {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: bolder;
-	padding-top, padding-bottom: 25px;
-	font: 450px;
-	color: #29D5F0;
-	text-shadow: 2px 2px #000000;
+	font: 650px;
+	color: #ffffff;
+	text-shadow: 3px 3px #000000;
 	text-align: center;
 }
 
@@ -47,11 +56,47 @@ ul {
 }
 
 li {
+	font-family: 'Encode Sans Expanded', sans-serif;
+	font-size: 24px;
 	display: block;
 	flex: 0 1 auto;
 	list-style-type: none;
 }
 
+.icon {
+	height: 25px;
+	width: 25px;
+}
+
+label {
+	display: inline-block;
+	text-align: center;
+	border: 2px solid transparent;
+}
+
+label:hover {
+	color: #4b2e83;
+}
+
+footer {
+	padding-top: 100px;
+}
+
+section {
+	animation: {
+		name: content;
+		direction: normal;
+		duration: 1s;
+		animation-timing-function: ease-in-out;
+		animation-iteration-count: 1;
+	}
+}
+
+footer {
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+}
 
 
 
