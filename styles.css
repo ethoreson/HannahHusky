@@ -1,5 +1,6 @@
 body {
-	background-color: #e8e3d3;
+	background-color: #444444;
+	height: 100%;
 }
 
 .portfolio {
@@ -7,39 +8,70 @@ body {
 	box-shadow: 5px 5px rgba(126, 126, 126, 0.5);
 }
 
-.col-md-12 {
-	background-image: url("images/header1blackwhite.png");
-	height: 120px;
-	background-repeat: no-repeat;
-	background-position: center;
-	display: inline;
+.header {
+	position: relative;
+	text-align: center;
 }
 
-h1 {
+.heading {
 	font-family: 'Open Sans', sans-serif;
-	font-weight: bolder;
-	font: 650px;
-	color: #ffffff;
-	text-shadow: 3px 3px #000000;
+	font-weight: black;
+	font-size: 5.2em;
+	color: #4b2e83;
+	text-shadow: 4px 4px #000000;
+	position: absolute;
+	top: 30px;
+	left: 700px;
+	line-height: 2px;
 	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#wideshot {
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	background-position: center;
+}
+
+#headshot {
+	border-radius: 50%;
+}
+
+#h1, #a1, #n1, #n2, #a2, #h2 {
+	display: inline-block;
+}
+
+#t1, #h3, #o1, #r1, #e1, #s1, #o2, #n3 {
+	display: inline-block;
+}
+
+.introQuote {
+	position: absolute;
+	top: 450px;
+	width: 30%;
+	margin-left: 780px; 
+	background-color: rgba(211, 211, 211, 0.5);
+	box-shadow: 2px 2px #212121;
+	font-style: italic;
+	text-align: center;
+}
+
+#downArrow {
+	height: 36px;
+	width: auto;
+	
 }
 
 h2 {
 	text-align: center;
 }
 
-#headshot {
-	position: relative;
-	width: 150px;
-	height: 150px;
-	overflow: hidden;
-	border-radius: 50%;
-}
 
 img {
 	width: 100%;
 	height: auto;
-	clip: rect(20px, 50px, 200px; 100px);
 }
 
 .tabs {
@@ -92,10 +124,13 @@ section {
 	}
 }
 
-footer {
-	position: fixed;
-	bottom: 0px;
-	width: 100%;
+@media (max-width: 1360px) {
+	.heading {
+		font-size: 4.2em;
+	}
+	.introQuote {
+		margin-left: 750px;
+	}
 }
 
 

@@ -16,6 +16,10 @@ $(document).ready(function() {
 	para6.hide();
 	para7.hide();
 
+	// setInterval(function() {
+	// 	$('#h1').animate( { backgroundColor: '#b7a57a' }, 1000).animate( { backgroundColor: '#4b2e83' }, 1000);
+	// }, 2000);
+
 	$("#option0").click(function(event) {
 		para1.hide();
 		para2.hide();
