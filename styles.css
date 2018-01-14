@@ -1,6 +1,8 @@
 body {
 	background-color: #444444;
 	height: 100%;
+	padding: 0;
+	margin: 0;
 }
 
 .portfolio {
@@ -33,6 +35,7 @@ body {
 	background-size: cover;
 	height: 100%;
 	background-position: center;
+	overflow: hidden;
 }
 
 #headshot {
@@ -59,9 +62,16 @@ body {
 }
 
 #downArrow {
-	height: 36px;
+	position: absolute;
+	top: 650px;
+	left: 700px;
+	height: 48px;
 	width: auto;
-	
+	background-color: rgba(250, 250, 250, 0.5);
+	border-radius: 25%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 h2 {
@@ -114,22 +124,40 @@ footer {
 	padding-top: 100px;
 }
 
-section {
-	animation: {
-		name: content;
-		direction: normal;
-		duration: 1s;
-		animation-timing-function: ease-in-out;
-		animation-iteration-count: 1;
-	}
-}
-
 @media (max-width: 1360px) {
 	.heading {
-		font-size: 4.2em;
+		font-size: 3.7em;
 	}
 	.introQuote {
 		margin-left: 750px;
+	}
+}
+
+@media(max-width: 1200px) {
+	.heading {
+		left: 550px;
+		font-size: 3.8em;
+	}
+	.introQuote {
+		margin-left: 600px;
+	}
+}
+
+@media (max-width: 1000px) {
+	.introQuote {
+		margin-left: 520px;
+	}
+	.heading {
+		font-size: 2.6em;
+	}
+}
+
+@media (max-width: 800px) {
+	.introQuote {
+		display: none;
+	}
+	#downArrow {
+		display: none;
 	}
 }
 

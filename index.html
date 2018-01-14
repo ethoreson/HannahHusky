@@ -3,13 +3,15 @@
 <head>
 	<link href="https://fonts.googleapis.com/css?family=Encode+Sans+Expanded|Open+Sans:700" rel="stylesheet">	
 <!-- 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
- -->	<link href="styles.css" rel="stylesheet" type="text/css"></link>
+ --><link href="styles.css" rel="stylesheet" type="text/css"></link>
+ 	<link href="scrolling-nav.css" rel="stylesheet" tpe="text/css"></link>
 	<script src="js/jquery-3.2.1.js"></script>
     <script src="js/scripts.js"></script>
 	<title>Hannah Thoreson</title>
 </head>
 <body>
 	<div class="container">
+		<div class="half">
 		<div class="row" id="header">
 			<img src="images/wideshot1.jpg" alt="header" id="wideshot">
 			<div class="heading">
@@ -35,8 +37,9 @@
 			</div>
 			<img src="icons/arrow.png" alt="down" id="downArrow">
 		</div>
-
-		<div class="tabs">
+		</div>
+		<div class="half">
+			<div class="tabs">
 
 <!-- 			<input type="radio" id="tab1" name="tab-control" checked>
   			<input type="radio" id="tab2" name="tab-control">
@@ -47,49 +50,49 @@
   			<input type="radio" id="tab7" name="tab-control">  
   			<input type="radio" id="tab8" name="tab-control"> -->
 
-  			<div class="portfolio">
-			<ul>
-				<li id="option0"><label for="tab1" role="button"><img class="icon" src="icons/apple.png"><br>Pipeline Project</label></li>
-				<li id="option2"><label for="tab3" role="button"><img class="icon" src="icons/mortarboard.png"><br>Dream Project</label></li>
-				<li id="option3"><label for="tab4" role="button"><img class="icon" src="icons/freshman-applicant.png"><br>FIG</label></li>
-				<li id="option5"><label for="tab6" role="button"><img class="icon" src="icons/alpha-and-omega.png"><br>GCP</label></li>
-				<li id="option7"><label for="tab8" role="button"><img class="icon" src="icons/books-stack.png"><br>Learning Leadership</label></li>
-			</ul>
+	  			<div class="portfolio">
+				<ul>
+					<li id="option0"><label for="tab1" role="button"><img class="icon" src="icons/apple.png"><br>Pipeline Project</label></li>
+					<li id="option2"><label for="tab3" role="button"><img class="icon" src="icons/mortarboard.png"><br>Dream Project</label></li>
+					<li id="option3"><label for="tab4" role="button"><img class="icon" src="icons/freshman-applicant.png"><br>FIG</label></li>
+					<li id="option5"><label for="tab6" role="button"><img class="icon" src="icons/alpha-and-omega.png"><br>GCP</label></li>
+					<li id="option7"><label for="tab8" role="button"><img class="icon" src="icons/books-stack.png"><br>Learning Leadership</label></li>
+				</ul>
+				</div>
 			</div>
-		</div>
 
-		<div class="slider">
-			<div class="bar">
+			<div class="slider">
+				<div class="bar">
+				</div>
 			</div>
-		</div>
 
-		<div class="portfolio">
-		<div class="content">
-			<section>
-				<h4 id="para0"><p>Pipeline Project was a 2 month Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem quas adipisci a accusantium eius ut voluptatibus ad impedit nulla, ipsa qui. Quasi temporibus eos commodi aliquid impedit amet, similique nulla.</p>
-				<p>Vestibulum ultricies id enim ut auctor. Fusce tincidunt tortor augue, in feugiat nisl porta id. Ut et lacus rhoncus, auctor velit ac, fringilla urna. Aenean euismod ex id est accumsan, pellentesque fermentum orci mollis. Maecenas eu scelerisque lorem. Aenean ut nunc consequat, congue orci in, vestibulum nunc. Integer in luctus nisi, sed iaculis neque. Nullam sagittis nibh in quam placerat, quis tempor leo dapibus. Mauris tristique tellus nec dolor aliquet, at cursus ex blandit. Integer consequat, lacus ut consectetur tempor, metus nunc porta mi, euismod posuere urna orci imperdiet diam. Mauris egestas eros id purus lacinia, vitae bibendum ante consequat. Nunc neque velit, tincidunt at luctus sit amet, lacinia id dui. Etiam rutrum, nibh ut pretium euismod, purus ipsum tempus metus, eu ultrices libero nibh quis leo. Ut pretium fermentum nulla. Nunc non justo eu massa placerat tristique ut nec est.</p></h4>
-			</section>
-			<section>
-				<h4 id="para2"><p>Dream Project Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam nemo ducimus eius, magnam error quisquam sunt voluptate labore, excepturi numquam! Alias libero optio sed harum debitis! Veniam, quia in eum.</p>
-				<p>Vestibulum ultricies id enim ut auctor. Fusce tincidunt tortor augue, in feugiat nisl porta id. Ut et lacus rhoncus, auctor velit ac, fringilla urna. Aenean euismod ex id est accumsan, pellentesque fermentum orci mollis. Maecenas eu scelerisque lorem. Aenean ut nunc consequat, congue orci in, vestibulum nunc. Integer in luctus nisi, sed iaculis neque. Nullam sagittis nibh in quam placerat, quis tempor leo dapibus. Mauris tristique tellus nec dolor aliquet, at cursus ex blandit. Integer consequat, lacus ut consectetur tempor, metus nunc porta mi, euismod posuere urna orci imperdiet diam. Mauris egestas eros id purus lacinia, vitae bibendum ante consequat. Nunc neque velit, tincidunt at luctus sit amet, lacinia id dui. Etiam rutrum, nibh ut pretium euismod, purus ipsum tempus metus, eu ultrices libero nibh quis leo. Ut pretium fermentum nulla. Nunc non justo eu massa placerat tristique ut nec est.</p></h4>
-			</section>
-			<section> 
-				<h4 id="para3"><p>FIG was a Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa dicta vero rerum? Eaque repudiandae architecto libero reprehenderit aliquam magnam ratione quidem? Nobis doloribus molestiae enim deserunt necessitatibus eaque quidem incidunt.</p>
-				<p>Vestibulum ultricies id enim ut auctor. Fusce tincidunt tortor augue, in feugiat nisl porta id. Ut et lacus rhoncus, auctor velit ac, fringilla urna. Aenean euismod ex id est accumsan, pellentesque fermentum orci mollis. Maecenas eu scelerisque lorem. Aenean ut nunc consequat, congue orci in, vestibulum nunc. Integer in luctus nisi, sed iaculis neque. Nullam sagittis nibh in quam placerat, quis tempor leo dapibus. Mauris tristique tellus nec dolor aliquet, at cursus ex blandit. Integer consequat, lacus ut consectetur tempor, metus nunc porta mi, euismod posuere urna orci imperdiet diam. Mauris egestas eros id purus lacinia, vitae bibendum ante consequat. Nunc neque velit, tincidunt at luctus sit amet, lacinia id dui. Etiam rutrum, nibh ut pretium euismod, purus ipsum tempus metus, eu ultrices libero nibh quis leo. Ut pretium fermentum nulla. Nunc non justo eu massa placerat tristique ut nec est.</p></h4>
-			</section>
-			<section>
-				<h4 id="para5"><p>GCP Vestibulum ultricies id enim ut auctor. Fusce tincidunt tortor augue, in feugiat nisl porta id. Ut et lacus rhoncus, auctor velit ac, fringilla urna. Aenean euismod ex id est accumsan, pellentesque fermentum orci mollis. Maecenas eu scelerisque lorem. Aenean ut nunc consequat, congue orci in, vestibulum nunc. Integer in luctus nisi, sed iaculis neque. Nullam sagittis nibh in quam placerat, quis tempor leo dapibus. Mauris tristique tellus nec dolor aliquet, at cursus ex blandit. Integer consequat, lacus ut consectetur tempor, metus nunc porta mi, euismod posuere urna orci imperdiet diam. Mauris egestas eros id purus lacinia, vitae bibendum ante consequat. Nunc neque velit, tincidunt at luctus sit amet, lacinia id dui. Etiam rutrum, nibh ut pretium euismod, purus ipsum tempus metus, eu ultrices libero nibh quis leo. Ut pretium fermentum nulla. Nunc non justo eu massa placerat tristique ut nec est.</p>
-				<p>Pellentesque nisi magna, congue a dui in, vulputate ornare ante. Cras varius, sem ut finibus euismod, enim arcu pretium nibh, eget laoreet felis lacus at justo. Vestibulum ante justo, imperdiet in est a, cursus maximus ipsum. In vulputate id dui vel lacinia. Cras ut diam purus. Nulla nec velit maximus, imperdiet augue vel, sollicitudin sem. Ut at tortor ut nibh tempor lacinia. Aliquam molestie et nisl sit amet blandit. Donec efficitur risus ut lacus gravida congue. In vitae convallis eros.</p></h4>
-			</section>
-			<section>
-				<h4 id="para7"><p>learning leadership para here Ut non laoreet enim. Phasellus urna urna, condimentum ut orci et, eleifend porta lacus. Aliquam vel ligula quis nibh lacinia mattis et vestibulum diam. Etiam ligula mi, gravida eget sem vitae, fringilla consectetur nunc. Etiam ultricies quam malesuada, elementum eros sit amet, blandit erat. Praesent eu mi ex. Aliquam mattis nisi sit amet leo posuere luctus.</p>
-				<p>Nullam fringilla rhoncus turpis eget iaculis. Aliquam viverra ante sed eleifend placerat. Curabitur fermentum tortor nec purus egestas faucibus. In nec blandit ante. Vestibulum eu enim non dui finibus porta id eu ante. Aenean et blandit ipsum, ut pulvinar lorem. Praesent scelerisque erat eu volutpat hendrerit.</p></h4>
-			</section>
-		</div>
-		</div>
-		<div class="footer">
-			<div>Website made by Emilie Thoreson</div>
-			<div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik, </a><a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons, </a><a href="<a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect, </a><a href="https://www.flaticon.com/authors/lyolya" title="Lyolya">Lyolya, </a> and <a href="https://www.flaticon.com/authors/becris" title="Becris">Becris</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+			<div class="portfolio">
+			<div class="content">
+				<section>
+					<h4 id="para0"><p>Pipeline Project was a 2 month Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem quas adipisci a accusantium eius ut voluptatibus ad impedit nulla, ipsa qui. Quasi temporibus eos commodi aliquid impedit amet, similique nulla.</p>
+					<p>Vestibulum ultricies id enim ut auctor. Fusce tincidunt tortor augue, in feugiat nisl porta id. Ut et lacus rhoncus, auctor velit ac, fringilla urna. Aenean euismod ex id est accumsan, pellentesque fermentum orci mollis. Maecenas eu scelerisque lorem. Aenean ut nunc consequat, congue orci in, vestibulum nunc. Integer in luctus nisi, sed iaculis neque. Nullam sagittis nibh in quam placerat, quis tempor leo dapibus. Mauris tristique tellus nec dolor aliquet, at cursus ex blandit. Integer consequat, lacus ut consectetur tempor, metus nunc porta mi, euismod posuere urna orci imperdiet diam. Mauris egestas eros id purus lacinia, vitae bibendum ante consequat. Nunc neque velit, tincidunt at luctus sit amet, lacinia id dui. Etiam rutrum, nibh ut pretium euismod, purus ipsum tempus metus, eu ultrices libero nibh quis leo. Ut pretium fermentum nulla. Nunc non justo eu massa placerat tristique ut nec est.</p></h4>
+				</section>
+				<section>
+					<h4 id="para2"><p>Dream Project Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam nemo ducimus eius, magnam error quisquam sunt voluptate labore, excepturi numquam! Alias libero optio sed harum debitis! Veniam, quia in eum.</p>
+					<p>Vestibulum ultricies id enim ut auctor. Fusce tincidunt tortor augue, in feugiat nisl porta id. Ut et lacus rhoncus, auctor velit ac, fringilla urna. Aenean euismod ex id est accumsan, pellentesque fermentum orci mollis. Maecenas eu scelerisque lorem. Aenean ut nunc consequat, congue orci in, vestibulum nunc. Integer in luctus nisi, sed iaculis neque. Nullam sagittis nibh in quam placerat, quis tempor leo dapibus. Mauris tristique tellus nec dolor aliquet, at cursus ex blandit. Integer consequat, lacus ut consectetur tempor, metus nunc porta mi, euismod posuere urna orci imperdiet diam. Mauris egestas eros id purus lacinia, vitae bibendum ante consequat. Nunc neque velit, tincidunt at luctus sit amet, lacinia id dui. Etiam rutrum, nibh ut pretium euismod, purus ipsum tempus metus, eu ultrices libero nibh quis leo. Ut pretium fermentum nulla. Nunc non justo eu massa placerat tristique ut nec est.</p></h4>
+				</section>
+				<section> 
+					<h4 id="para3"><p>FIG was a Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa dicta vero rerum? Eaque repudiandae architecto libero reprehenderit aliquam magnam ratione quidem? Nobis doloribus molestiae enim deserunt necessitatibus eaque quidem incidunt.</p>
+					<p>Vestibulum ultricies id enim ut auctor. Fusce tincidunt tortor augue, in feugiat nisl porta id. Ut et lacus rhoncus, auctor velit ac, fringilla urna. Aenean euismod ex id est accumsan, pellentesque fermentum orci mollis. Maecenas eu scelerisque lorem. Aenean ut nunc consequat, congue orci in, vestibulum nunc. Integer in luctus nisi, sed iaculis neque. Nullam sagittis nibh in quam placerat, quis tempor leo dapibus. Mauris tristique tellus nec dolor aliquet, at cursus ex blandit. Integer consequat, lacus ut consectetur tempor, metus nunc porta mi, euismod posuere urna orci imperdiet diam. Mauris egestas eros id purus lacinia, vitae bibendum ante consequat. Nunc neque velit, tincidunt at luctus sit amet, lacinia id dui. Etiam rutrum, nibh ut pretium euismod, purus ipsum tempus metus, eu ultrices libero nibh quis leo. Ut pretium fermentum nulla. Nunc non justo eu massa placerat tristique ut nec est.</p></h4>
+				</section>
+				<section>
+					<h4 id="para5"><p>GCP Vestibulum ultricies id enim ut auctor. Fusce tincidunt tortor augue, in feugiat nisl porta id. Ut et lacus rhoncus, auctor velit ac, fringilla urna. Aenean euismod ex id est accumsan, pellentesque fermentum orci mollis. Maecenas eu scelerisque lorem. Aenean ut nunc consequat, congue orci in, vestibulum nunc. Integer in luctus nisi, sed iaculis neque. Nullam sagittis nibh in quam placerat, quis tempor leo dapibus. Mauris tristique tellus nec dolor aliquet, at cursus ex blandit. Integer consequat, lacus ut consectetur tempor, metus nunc porta mi, euismod posuere urna orci imperdiet diam. Mauris egestas eros id purus lacinia, vitae bibendum ante consequat. Nunc neque velit, tincidunt at luctus sit amet, lacinia id dui. Etiam rutrum, nibh ut pretium euismod, purus ipsum tempus metus, eu ultrices libero nibh quis leo. Ut pretium fermentum nulla. Nunc non justo eu massa placerat tristique ut nec est.</p>
+					<p>Pellentesque nisi magna, congue a dui in, vulputate ornare ante. Cras varius, sem ut finibus euismod, enim arcu pretium nibh, eget laoreet felis lacus at justo. Vestibulum ante justo, imperdiet in est a, cursus maximus ipsum. In vulputate id dui vel lacinia. Cras ut diam purus. Nulla nec velit maximus, imperdiet augue vel, sollicitudin sem. Ut at tortor ut nibh tempor lacinia. Aliquam molestie et nisl sit amet blandit. Donec efficitur risus ut lacus gravida congue. In vitae convallis eros.</p></h4>
+				</section>
+				<section>
+					<h4 id="para7"><p>learning leadership para here Ut non laoreet enim. Phasellus urna urna, condimentum ut orci et, eleifend porta lacus. Aliquam vel ligula quis nibh lacinia mattis et vestibulum diam. Etiam ligula mi, gravida eget sem vitae, fringilla consectetur nunc. Etiam ultricies quam malesuada, elementum eros sit amet, blandit erat. Praesent eu mi ex. Aliquam mattis nisi sit amet leo posuere luctus.</p>
+					<p>Nullam fringilla rhoncus turpis eget iaculis. Aliquam viverra ante sed eleifend placerat. Curabitur fermentum tortor nec purus egestas faucibus. In nec blandit ante. Vestibulum eu enim non dui finibus porta id eu ante. Aenean et blandit ipsum, ut pulvinar lorem. Praesent scelerisque erat eu volutpat hendrerit.</p></h4>
+				</section>
+			</div>
+			</div>
+			<div class="footer">
+				<div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik, </a><a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons, </a><a href="<a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect, </a><a href="https://www.flaticon.com/authors/lyolya" title="Lyolya">Lyolya, </a> and <a href="https://www.flaticon.com/authors/becris" title="Becris">Becris</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+			</div>
 		</div>
 	</div>
 </body>
