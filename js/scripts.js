@@ -4,17 +4,11 @@ $(document).ready(function() {
 	var para2 = $('#para2');
 	var para3 = $('#para3');
 	var para4 = $('#para4');
-	var para5 = $('#para5');
-	var para6 = $('#para6');
-	var para7 = $('#para7');
 
 	para1.hide();
 	para2.hide();
 	para3.hide();
 	para4.hide();
-	para5.hide();
-	para6.hide();
-	para7.hide();
 
 	// setInterval(function() {
 	// 	$('#h1').animate( { backgroundColor: '#b7a57a' }, 1000).animate( { backgroundColor: '#4b2e83' }, 1000);
@@ -25,9 +19,6 @@ $(document).ready(function() {
 		para2.hide();
 		para3.hide();
 		para4.hide();
-		para5.hide();
-		para6.hide();
-		para7.hide();
 		para0.show();
 	})
 
@@ -36,9 +27,6 @@ $(document).ready(function() {
 		para2.hide();
 		para3.hide();
 		para4.hide();
-		para5.hide();
-		para6.hide();
-		para7.hide();
 		para1.show();
 	});
 
@@ -47,9 +35,6 @@ $(document).ready(function() {
 		para1.hide();
 		para3.hide();
 		para4.hide();
-		para5.hide();
-		para6.hide();
-		para7.hide();
 		para2.show();
 	});
 
@@ -58,9 +43,6 @@ $(document).ready(function() {
 		para1.hide();
 		para2.hide();
 		para4.hide();
-		para5.hide();
-		para6.hide();
-		para7.hide();
 		para3.show();
 	});
 
@@ -69,44 +51,7 @@ $(document).ready(function() {
 		para1.hide();
 		para2.hide();
 		para3.hide();
-		para5.hide();
-		para6.hide();
-		para7.hide();
 		para4.show();
 	});
-
-	$("#option5").click(function(event) {
-		para0.hide();
-		para1.hide();
-		para2.hide();
-		para3.hide();
-		para4.hide();
-		para6.hide();
-		para7.hide();
-		para5.show();
-	});
-
-	$("#option6").click(function(event) {
-		para0.hide();
-		para1.hide();
-		para2.hide();
-		para3.hide();
-		para4.hide();
-		para5.hide();
-		para7.hide();
-		para6.show();
-	});
-
-	$("#option7").click(function(event) {
-		para0.hide();
-		para1.hide();
-		para2.hide();
-		para3.hide();
-		para4.hide();
-		para5.hide();
-		para6.hide();
-		para7.show();
-	});
-
 
 });

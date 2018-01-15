@@ -50,6 +50,115 @@ body {
 	display: inline-block;
 }
 
+#h1 {
+	-webkit-animation-name: colorizeH1;
+	-webkit-animation-duration: 60s;
+	animation-name: colorizeH1;
+	animation-duration: 60s;
+}
+
+@keyframes colorizeH1 {
+	0% {color: #4b2e83;}
+	9% {color: #4b2e83;}
+	10% {color: #b7a57a;}
+	20% {color: #b7a57a;}
+	21%	{color: #4b2e83;}
+	50% {color: #4b2e83;}
+	51% {color: #b7a57a;}
+	100% {color: #b7a57a;}
+}
+
+#e1 {
+	-webkit-animation-name: colorizeE1;
+	-webkit-animation-duration: 30s;
+	animation-name: colorizeE1;
+	animation-duration: 30s;
+}
+
+@keyframes colorizeE1 {
+	0% {color: #4b2e83;}
+	9% {color: #4b2e83;}
+	10% {color: #b7a57a;}
+	20% {color: #b7a57a;}
+	21%	{color: #4b2e83;}
+	50% {color: #4b2e83;}
+	51% {color: #b7a57a;}
+	100% {color: #b7a57a;}
+}
+
+#a2 {
+	-webkit-animation-name: colorizeA2;
+	-webkit-animation-duration: 45s;
+	animation-name: colorizeA2;
+	animation-duration: 45s;
+}
+
+@keyframes colorizeA2 {
+	0% {color: #4b2e83;}
+	9% {color: #4b2e83;}
+	10% {color: #b7a57a;}
+	20% {color: #b7a57a;}
+	21%	{color: #4b2e83;}
+	50% {color: #4b2e83;}
+	51% {color: #b7a57a;}
+	75% {color: #b7a57a;}
+	76% {color: #4b2e83;}
+}
+
+#t1 {
+	-webkit-animation-name: colorizeT1;
+	-webkit-animation-duration: 45s;
+	animation-name: colorizeT1;
+	animation-duration: 45s;
+}
+
+@keyframes colorizeT1 {
+	0% {color: #4b2e83;}
+	5% {color: #4b2e83;}
+	6% {color: #b7a57a;}
+	35% {color: #b7a57a;}
+	36%	{color: #4b2e83;}
+	65% {color: #4b2e83;}
+	66% {color: #b7a57a;}
+	100% {color: #b7a57a;}
+}
+
+#o1 {
+	-webkit-animation-name: colorizeO1;
+	-webkit-animation-duration: 20s;
+	animation-name: colorizeO1;
+	animation-duration: 20s;
+}
+
+@keyframes colorizeO1 {
+	0% {color: #4b2e83;}
+	15% {color: #4b2e83;}
+	16% {color: #b7a57a;}
+	35% {color: #b7a57a;}
+	36%	{color: #4b2e83;}
+	60% {color: #4b2e83;}
+	61% {color: #b7a57a;}
+	100% {color: #b7a57a;}
+}
+
+#n3 {
+	-webkit-animation-name: colorizeN3;
+	-webkit-animation-duration: 50s;
+	animation-name: colorizeN3;
+	animation-duration: 50s;
+}
+
+@keyframes colorizeN3 {
+	0% {color: #4b2e83;}
+	15% {color: #4b2e83;}
+	16% {color: #b7a57a;}
+	35% {color: #b7a57a;}
+	36%	{color: #4b2e83;}
+	65% {color: #4b2e83;}
+	66% {color: #b7a57a;}
+	100% {color: #b7a57a;}
+}
+
 .introQuote {
 	position: absolute;
 	top: 450px;
@@ -105,9 +214,14 @@ li {
 	list-style-type: none;
 }
 
+h4 {
+	font-size: 28px;
+	font-family: 'Open Sans', sans-serif;
+}
+
 .icon {
-	height: 25px;
-	width: 25px;
+	height: 45px;
+	width: 45px;
 }
 
 label {
@@ -120,8 +234,30 @@ label:hover {
 	color: #4b2e83;
 }
 
+.pic {
+	height: 20%;
+	width: 20%;
+	padding: 10px;
+}
+
+#sk1, #fig2 {
+	float: left;
+}
+
+#sk2, #dream1, #fig1 {
+	float: right;
+}
+
+section {
+	text-indent: 50px;
+}
+
 footer {
 	padding-top: 100px;
+}
+
+.blankSpace {
+	height: 375px;
 }
 
 @media (max-width: 1360px) {
