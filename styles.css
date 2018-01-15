@@ -36,6 +36,8 @@ body {
 	height: 100%;
 	background-position: center;
 	overflow: hidden;
+	width: 2000px;
+	height: auto;
 }
 
 #headshot {
