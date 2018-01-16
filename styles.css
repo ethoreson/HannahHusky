@@ -6,10 +6,18 @@ body {
 }
 
 .portfolio {
+	font-size: 24px;
+	font-family: 'Encode Sans', sans-serif;
 	background-color: #d9d9d9;
 	box-shadow: 5px 5px rgba(126, 126, 126, 0.5);
-	cursor: pointer;
+	text-indent: 50px;
 	padding-top, padding-bottom: 50px;
+	padding: 15px;
+}
+
+h3 {
+	font-size: 32px;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .header {
@@ -214,10 +222,7 @@ li {
 	list-style-type: none;
 }
 
-h4 {
-	font-size: 28px;
-	font-family: 'Open Sans', sans-serif;
-}
+
 
 .icon {
 	height: 45px;
@@ -240,16 +245,12 @@ label:hover {
 	padding: 10px;
 }
 
-#sk1, #fig2 {
+#sk1, #fig2, #fig1 {
 	float: left;
 }
 
-#sk2, #dream1, #fig1 {
+#sk2, #dream1 {
 	float: right;
-}
-
-section {
-	text-indent: 50px;
 }
 
 footer {
