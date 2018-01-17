@@ -245,11 +245,11 @@ label:hover {
 	padding: 10px;
 }
 
-#sk1, #fig1, #sk2 {
+#sk1, #fig1, #fig2 {
 	float: left;
 }
 
-#dream1, #fig2 {
+#dream1, #sk2 {
 	float: right;
 }
 
